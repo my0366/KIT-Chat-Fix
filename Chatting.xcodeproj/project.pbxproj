@@ -9,46 +9,37 @@
 /* Begin PBXBuildFile section */
 		3FB02D9727E4714E0074E2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02D9627E4714E0074E2C1 /* AppDelegate.swift */; };
 		3FB02D9927E4714E0074E2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02D9827E4714E0074E2C1 /* SceneDelegate.swift */; };
-		3FB02D9B27E4714E0074E2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02D9A27E4714E0074E2C1 /* ViewController.swift */; };
+		3FB02D9B27E4714E0074E2C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02D9A27E4714E0074E2C1 /* WelcomeViewController.swift */; };
 		3FB02D9E27E4714E0074E2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB02D9C27E4714E0074E2C1 /* Main.storyboard */; };
 		3FB02DA027E4714F0074E2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB02D9F27E4714F0074E2C1 /* Assets.xcassets */; };
 		3FB02DA327E4714F0074E2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB02DA127E4714F0074E2C1 /* LaunchScreen.storyboard */; };
-		3FB02DAE27E4714F0074E2C1 /* ChattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DAD27E4714F0074E2C1 /* ChattingTests.swift */; };
-		3FB02DB827E4714F0074E2C1 /* ChattingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DB727E4714F0074E2C1 /* ChattingUITests.swift */; };
-		3FB02DBA27E4714F0074E2C1 /* ChattingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DB927E4714F0074E2C1 /* ChattingUITestsLaunchTests.swift */; };
+		3FB02DC827E471800074E2C1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB02DC727E471800074E2C1 /* FirebaseAuth */; };
+		3FB02DCA27E471800074E2C1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB02DC927E471800074E2C1 /* FirebaseFirestore */; };
+		3FB02DD327E47AE30074E2C1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DD227E47AE30074E2C1 /* RegisterViewController.swift */; };
+		3FB02DD527E47AED0074E2C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DD427E47AED0074E2C1 /* LoginViewController.swift */; };
+		3FB02DD727E47AFA0074E2C1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DD627E47AFA0074E2C1 /* ChatViewController.swift */; };
+		3FB02DDA27E47B830074E2C1 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB02DD927E47B830074E2C1 /* Chat.swift */; };
+		3FDBCE8027E4822600DF3D1A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBCE7E27E4822600DF3D1A /* MessageCell.swift */; };
+		3FDBCE8127E4822600DF3D1A /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBCE7F27E4822600DF3D1A /* MessageCell.xib */; };
+		3FDBCE8327E4873A00DF3D1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBCE8227E4873A00DF3D1A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3FB02DAA27E4714F0074E2C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FB02D8B27E4714E0074E2C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FB02D9227E4714E0074E2C1;
-			remoteInfo = Chatting;
-		};
-		3FB02DB427E4714F0074E2C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FB02D8B27E4714E0074E2C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FB02D9227E4714E0074E2C1;
-			remoteInfo = Chatting;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3FB02D9327E4714E0074E2C1 /* Chatting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB02D9627E4714E0074E2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB02D9827E4714E0074E2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FB02D9A27E4714E0074E2C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB02D9A27E4714E0074E2C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		3FB02D9D27E4714E0074E2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FB02D9F27E4714F0074E2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB02DA227E4714F0074E2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB02DA427E4714F0074E2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FB02DA927E4714F0074E2C1 /* ChattingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FB02DAD27E4714F0074E2C1 /* ChattingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingTests.swift; sourceTree = "<group>"; };
-		3FB02DB327E4714F0074E2C1 /* ChattingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FB02DB727E4714F0074E2C1 /* ChattingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingUITests.swift; sourceTree = "<group>"; };
-		3FB02DB927E4714F0074E2C1 /* ChattingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FB02DD227E47AE30074E2C1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3FB02DD427E47AED0074E2C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FB02DD627E47AFA0074E2C1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3FB02DD927E47B830074E2C1 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		3FDBCE7E27E4822600DF3D1A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3FDBCE7F27E4822600DF3D1A /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		3FDBCE8227E4873A00DF3D1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DA627E4714F0074E2C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DB027E4714F0074E2C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3FB02DC827E471800074E2C1 /* FirebaseAuth in Frameworks */,
+				3FB02DCA27E471800074E2C1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				3FB02D9527E4714E0074E2C1 /* Chatting */,
-				3FB02DAC27E4714F0074E2C1 /* ChattingTests */,
-				3FB02DB627E4714F0074E2C1 /* ChattingUITests */,
 				3FB02D9427E4714E0074E2C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				3FB02D9327E4714E0074E2C1 /* Chatting.app */,
-				3FB02DA927E4714F0074E2C1 /* ChattingTests.xctest */,
-				3FB02DB327E4714F0074E2C1 /* ChattingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +74,46 @@
 		3FB02D9527E4714E0074E2C1 /* Chatting */ = {
 			isa = PBXGroup;
 			children = (
+				3FB02DD827E47B7B0074E2C1 /* Model */,
 				3FB02D9627E4714E0074E2C1 /* AppDelegate.swift */,
 				3FB02D9827E4714E0074E2C1 /* SceneDelegate.swift */,
-				3FB02D9A27E4714E0074E2C1 /* ViewController.swift */,
-				3FB02D9C27E4714E0074E2C1 /* Main.storyboard */,
+				3FB02DD127E47A420074E2C1 /* Controller */,
+				3FB02DDB27E47C960074E2C1 /* View */,
 				3FB02D9F27E4714F0074E2C1 /* Assets.xcassets */,
 				3FB02DA127E4714F0074E2C1 /* LaunchScreen.storyboard */,
+				3FDBCE8227E4873A00DF3D1A /* GoogleService-Info.plist */,
 				3FB02DA427E4714F0074E2C1 /* Info.plist */,
 			);
 			path = Chatting;
 			sourceTree = "<group>";
 		};
-		3FB02DAC27E4714F0074E2C1 /* ChattingTests */ = {
+		3FB02DD127E47A420074E2C1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3FB02DAD27E4714F0074E2C1 /* ChattingTests.swift */,
+				3FB02D9A27E4714E0074E2C1 /* WelcomeViewController.swift */,
+				3FB02DD227E47AE30074E2C1 /* RegisterViewController.swift */,
+				3FB02DD427E47AED0074E2C1 /* LoginViewController.swift */,
+				3FB02DD627E47AFA0074E2C1 /* ChatViewController.swift */,
 			);
-			path = ChattingTests;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		3FB02DB627E4714F0074E2C1 /* ChattingUITests */ = {
+		3FB02DD827E47B7B0074E2C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3FB02DB727E4714F0074E2C1 /* ChattingUITests.swift */,
-				3FB02DB927E4714F0074E2C1 /* ChattingUITestsLaunchTests.swift */,
+				3FB02DD927E47B830074E2C1 /* Chat.swift */,
 			);
-			path = ChattingUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB02DDB27E47C960074E2C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FB02D9C27E4714E0074E2C1 /* Main.storyboard */,
+				3FDBCE7E27E4822600DF3D1A /* MessageCell.swift */,
+				3FDBCE7F27E4822600DF3D1A /* MessageCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +132,13 @@
 			dependencies = (
 			);
 			name = Chatting;
+			packageProductDependencies = (
+				3FB02DC727E471800074E2C1 /* FirebaseAuth */,
+				3FB02DC927E471800074E2C1 /* FirebaseFirestore */,
+			);
 			productName = Chatting;
 			productReference = 3FB02D9327E4714E0074E2C1 /* Chatting.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3FB02DA827E4714F0074E2C1 /* ChattingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FB02DC027E4714F0074E2C1 /* Build configuration list for PBXNativeTarget "ChattingTests" */;
-			buildPhases = (
-				3FB02DA527E4714F0074E2C1 /* Sources */,
-				3FB02DA627E4714F0074E2C1 /* Frameworks */,
-				3FB02DA727E4714F0074E2C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FB02DAB27E4714F0074E2C1 /* PBXTargetDependency */,
-			);
-			name = ChattingTests;
-			productName = ChattingTests;
-			productReference = 3FB02DA927E4714F0074E2C1 /* ChattingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3FB02DB227E4714F0074E2C1 /* ChattingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FB02DC327E4714F0074E2C1 /* Build configuration list for PBXNativeTarget "ChattingUITests" */;
-			buildPhases = (
-				3FB02DAF27E4714F0074E2C1 /* Sources */,
-				3FB02DB027E4714F0074E2C1 /* Frameworks */,
-				3FB02DB127E4714F0074E2C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FB02DB527E4714F0074E2C1 /* PBXTargetDependency */,
-			);
-			name = ChattingUITests;
-			productName = ChattingUITests;
-			productReference = 3FB02DB327E4714F0074E2C1 /* ChattingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +153,6 @@
 					3FB02D9227E4714E0074E2C1 = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					3FB02DA827E4714F0074E2C1 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 3FB02D9227E4714E0074E2C1;
-					};
-					3FB02DB227E4714F0074E2C1 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 3FB02D9227E4714E0074E2C1;
-					};
 				};
 			};
 			buildConfigurationList = 3FB02D8E27E4714E0074E2C1 /* Build configuration list for PBXProject "Chatting" */;
@@ -215,13 +164,14 @@
 				Base,
 			);
 			mainGroup = 3FB02D8A27E4714E0074E2C1;
+			packageReferences = (
+				3FB02DC627E471800074E2C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3FB02D9427E4714E0074E2C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3FB02D9227E4714E0074E2C1 /* Chatting */,
-				3FB02DA827E4714F0074E2C1 /* ChattingTests */,
-				3FB02DB227E4714F0074E2C1 /* ChattingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,22 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB02DA327E4714F0074E2C1 /* LaunchScreen.storyboard in Resources */,
+				3FDBCE8127E4822600DF3D1A /* MessageCell.xib in Resources */,
+				3FDBCE8327E4873A00DF3D1A /* GoogleService-Info.plist in Resources */,
 				3FB02DA027E4714F0074E2C1 /* Assets.xcassets in Resources */,
 				3FB02D9E27E4714E0074E2C1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DA727E4714F0074E2C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DB127E4714F0074E2C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,43 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB02D9B27E4714E0074E2C1 /* ViewController.swift in Sources */,
+				3FB02D9B27E4714E0074E2C1 /* WelcomeViewController.swift in Sources */,
+				3FDBCE8027E4822600DF3D1A /* MessageCell.swift in Sources */,
 				3FB02D9727E4714E0074E2C1 /* AppDelegate.swift in Sources */,
+				3FB02DDA27E47B830074E2C1 /* Chat.swift in Sources */,
 				3FB02D9927E4714E0074E2C1 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DA527E4714F0074E2C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FB02DAE27E4714F0074E2C1 /* ChattingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FB02DAF27E4714F0074E2C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FB02DBA27E4714F0074E2C1 /* ChattingUITestsLaunchTests.swift in Sources */,
-				3FB02DB827E4714F0074E2C1 /* ChattingUITests.swift in Sources */,
+				3FB02DD527E47AED0074E2C1 /* LoginViewController.swift in Sources */,
+				3FB02DD727E47AFA0074E2C1 /* ChatViewController.swift in Sources */,
+				3FB02DD327E47AE30074E2C1 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3FB02DAB27E4714F0074E2C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FB02D9227E4714E0074E2C1 /* Chatting */;
-			targetProxy = 3FB02DAA27E4714F0074E2C1 /* PBXContainerItemProxy */;
-		};
-		3FB02DB527E4714F0074E2C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FB02D9227E4714E0074E2C1 /* Chatting */;
-			targetProxy = 3FB02DB427E4714F0074E2C1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FB02D9C27E4714E0074E2C1 /* Main.storyboard */ = {
@@ -486,82 +399,6 @@
 			};
 			name = Release;
 		};
-		3FB02DC127E4714F0074E2C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6P9DVHVRR7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.my0366.ChattingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatting.app/Chatting";
-			};
-			name = Debug;
-		};
-		3FB02DC227E4714F0074E2C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6P9DVHVRR7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.my0366.ChattingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatting.app/Chatting";
-			};
-			name = Release;
-		};
-		3FB02DC427E4714F0074E2C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6P9DVHVRR7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.my0366.ChattingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Chatting;
-			};
-			name = Debug;
-		};
-		3FB02DC527E4714F0074E2C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6P9DVHVRR7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.my0366.ChattingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Chatting;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,25 +420,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FB02DC027E4714F0074E2C1 /* Build configuration list for PBXNativeTarget "ChattingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FB02DC127E4714F0074E2C1 /* Debug */,
-				3FB02DC227E4714F0074E2C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FB02DC327E4714F0074E2C1 /* Build configuration list for PBXNativeTarget "ChattingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FB02DC427E4714F0074E2C1 /* Debug */,
-				3FB02DC527E4714F0074E2C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FB02DC627E471800074E2C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FB02DC727E471800074E2C1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB02DC627E471800074E2C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3FB02DC927E471800074E2C1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB02DC627E471800074E2C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3FB02D8B27E4714E0074E2C1 /* Project object */;
 }
