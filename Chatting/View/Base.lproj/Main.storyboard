@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
         </scene>
-        <!--Welcome View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="Lo2-Px-BP8">
             <objects>
-                <viewController id="df7-4x-Kr2" customClass="WelcomeViewController" customModule="Chatting" sceneMemberID="viewController">
+                <viewController id="df7-4x-Kr2" customClass="RegisterViewController" customModule="Chatting" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="30Z-XU-EAY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="registerPressed:" destination="df7-4x-Kr2" eventType="touchUpInside" id="IGF-99-FPF"/>
+                                    <action selector="registerPressed:" destination="df7-4x-Kr2" eventType="touchUpInside" id="fRL-Wt-ATz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -149,8 +149,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="L9q-pi-k0U"/>
                     <connections>
-                        <outlet property="idTextField" destination="oBS-Z0-yXo" id="gij-VO-jqe"/>
-                        <outlet property="pwTextField" destination="wm6-OC-9EA" id="l2i-HK-N4e"/>
+                        <outlet property="idTextField" destination="oBS-Z0-yXo" id="7nZ-bh-U5M"/>
+                        <outlet property="pwTextField" destination="wm6-OC-9EA" id="LR8-Fd-JQn"/>
                         <segue destination="vzq-XK-E08" kind="show" identifier="registerToChat" id="ZSk-dd-fJh"/>
                     </connections>
                 </viewController>
@@ -166,7 +166,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="비밀번호를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-co-Jqi">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="bezel" placeholder="비밀번호를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-co-Jqi">
                                 <rect key="frame" x="70" y="208" width="274" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -176,7 +176,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WSO-rQ-MfN">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@2.com" borderStyle="bezel" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WSO-rQ-MfN">
                                 <rect key="frame" x="70" y="148" width="274" height="50"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <color key="tintColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -337,7 +337,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZSk-dd-fJh"/>
+        <segue reference="VVZ-Cr-S25"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>

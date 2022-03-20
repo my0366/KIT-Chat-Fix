@@ -14,16 +14,41 @@ class ChatViewController:UIViewController {
     @IBOutlet weak var messageTextField: UITextField!
     
     let db = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "KIT Chat"
         tableView.dataSource = self
         navigationItem.hidesBackButton = true
+        tableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
         
-        tableView.register(UINib(nibName: "ReusableCell", bundle: nil), forCellReuseIdentifier: "MessageCell")
+        loadMessage()
     }
     
     var message: [Chat] = []
+    
+    func loadMessage() {
+        
+        db.collection("message").order(by: "date").addSnapshotListener{ (querySnapshot, error) in
+            self.message = []
+            if let e = error {
+                print(e)
+            } else {
+                if let snapShot = querySnapshot?.documents {
+                    for doc in snapShot {
+                        let data = doc.data()
+                        if let messageSender = data["name"] as? String, let messageBody = data["body"] as? String  {
+                            let newMessage = Chat(name: messageSender, body: messageBody)
+                            self.message.append(newMessage)
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     
     @IBAction func signOutPressed(_ sender: UIBarButtonItem) {
         do {
@@ -36,7 +61,7 @@ class ChatViewController:UIViewController {
     
     @IBAction func sendPressed(_ sender: UIButton) {
         if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
-            db.collection("message").addDocument(data: ["name":messageSender,"body": messageBody]) { (error) in
+            db.collection("message").addDocument(data: ["name": messageSender, "body": messageBody, "date" : Date().timeIntervalSince1970]) { (error) in
                 if let e = error {
                     print(e)
                 } else {
@@ -56,8 +81,8 @@ extension ChatViewController:UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Message", for: indexPath) as! MessageCell
-        cell.textLabel?.text = message[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! MessageCell
+        cell.textLabel?.text = message[indexPath.row].body
         return cell
     }
     
