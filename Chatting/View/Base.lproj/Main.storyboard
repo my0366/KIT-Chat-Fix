@@ -60,6 +60,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.73225645426494834" green="0.73225645426494834" blue="0.73225645426494834" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="4ks-3A-c8a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ene-9K-OkZ"/>
                             <constraint firstItem="XGT-8E-TDA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cmz-ZS-noa"/>
@@ -86,7 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oBS-Z0-yXo">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oBS-Z0-yXo">
                                 <rect key="frame" x="70" y="148" width="274" height="50"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <color key="tintColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -97,7 +98,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wm6-OC-9EA">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wm6-OC-9EA">
                                 <rect key="frame" x="70" y="208" width="274" height="50"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <color key="tintColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -131,7 +132,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oyp-6N-qNR"/>
-                        <color key="backgroundColor" red="0.53179727801763776" green="0.7390343558908713" blue="0.55255790753213552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.63921570780000003" green="0.44705885649999999" blue="0.89019608500000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="oBS-Z0-yXo" firstAttribute="centerX" secondItem="30Z-XU-EAY" secondAttribute="centerX" id="4rS-LR-pu1"/>
                             <constraint firstItem="oBS-Z0-yXo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oyp-6N-qNR" secondAttribute="leading" constant="70" id="9Dx-sG-Gpe"/>
@@ -166,19 +167,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="bezel" placeholder="비밀번호를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-co-Jqi">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" placeholder="비밀번호를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-co-Jqi">
                                 <rect key="frame" x="70" y="208" width="274" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="N8h-uY-Nj4"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="v8b-MN-SYE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@2.com" borderStyle="bezel" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WSO-rQ-MfN">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@2.com" borderStyle="roundedRect" placeholder="아이디를 입력하세요" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WSO-rQ-MfN">
                                 <rect key="frame" x="70" y="148" width="274" height="50"/>
-                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="MEi-qr-VD5"/>
@@ -208,7 +209,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="njV-eg-Axo"/>
-                        <color key="backgroundColor" red="0.82119322416390805" green="0.90959971781932947" blue="0.88876484435217817" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.63921570780000003" green="0.44705885649999999" blue="0.89019608500000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="njV-eg-Axo" firstAttribute="trailing" secondItem="WSO-rQ-MfN" secondAttribute="trailing" constant="70" id="2Hj-oY-2No"/>
                             <constraint firstItem="WSO-rQ-MfN" firstAttribute="top" secondItem="njV-eg-Axo" secondAttribute="top" constant="60" id="4Z3-aJ-8sz"/>
@@ -301,7 +302,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n4q-eh-qVk">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="T1h-EN-ngc">
+                        <barButtonItem key="rightBarButtonItem" image="pip.exit" catalog="system" id="T1h-EN-ngc">
+                            <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                             <connections>
                                 <action selector="signOutPressed:" destination="vzq-XK-E08" id="irM-KY-9RC"/>
                             </connections>
@@ -337,10 +339,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VVZ-Cr-S25"/>
+        <segue reference="ZSk-dd-fJh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <image name="pip.exit" catalog="system" width="128" height="96"/>
         <namedColor name="BrandPurple">
             <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -352,6 +355,9 @@
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
